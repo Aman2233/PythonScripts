@@ -4,7 +4,7 @@
 import sys
 import requests # This package will allow the programme to accept web requests
 
-sub_list = open("wordlist.txt").read() #reading a list of words from wordlist.txt
+sub_list = open("wordlist.txt").read() #reading a list of words from wordlist.txt, change this to your worldlists
 directories = sub_list.splitlines() #splitting line to diffrinciate each directory
 
 for dir in directories:
